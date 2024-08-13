@@ -19,8 +19,8 @@ void readEncoder();
 
 void setup() 
 {    
-  Serial.begin(115200);            
-  
+  Serial.begin(115200);
+  Serial.println("Changed");
   // Initialize the PWM and DIR pins as digital outputs.
   pinMode(pinPwm, OUTPUT);
   pinMode(pinDir, OUTPUT);
